@@ -83,7 +83,7 @@ you can manually configure specific applications to use Tor.
 
 ### 🌐 Browser Configuration (Chrome/Edge/Firefox)
 For the best experience, use a proxy management extension like **SwitchyOmega**:
-1. Install [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif).
+1. Install [Proxy SwitchyOmega]([https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?hl=en)).
 2. Open Options > **New Profile** > Name it "Tor".
 3. Protocol: **SOCKS5**.
 4. Server: `127.0.0.1` | Port: `9050`.
@@ -124,4 +124,5 @@ Standard Tor traffic has a distinct fingerprint that firewalls can easily recogn
 ---
 
 ## ⚠️ Disclaimer
+
 This tool is open-source software designed for educational purposes and personal privacy protection. It is provided "as is", without warranty of any kind. Please use this tool responsibly and ensure you comply with the laws and regulations of your region regarding the use of encryption and anonymity software.
