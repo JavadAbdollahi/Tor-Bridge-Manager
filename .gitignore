@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ===========================
+#  Project Specific Ignores
+# ===========================
+
+# 1. The Tor Engine Folder (Too large, not our code)
+tor/
+
+# 2. Runtime Data & Logs (Generated automatically)
+tor_data/
+bootstrap.log
+
+# 3. User Database (Contains private bridges & settings)
+data.json
+
+# 4. Built Executables (Should be in 'Releases', not source)
+*.exe
+TorManager.exe
+
+# 5. PyInstaller Temp Folders
+build/
+dist/
+*.spec
