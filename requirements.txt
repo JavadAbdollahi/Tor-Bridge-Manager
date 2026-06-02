@@ -1,2 +1,14 @@
-requests
-pyinstaller
+altgraph==0.17.5
+certifi==2026.5.20
+charset-normalizer==3.4.7
+colorama==0.4.6
+idna==3.17
+packaging==26.2
+pefile==2024.8.26
+pillow==12.2.0
+pyinstaller==6.20.0
+pyinstaller-hooks-contrib==2026.5
+pywin32-ctypes==0.2.3
+qrcode==8.2
+requests==2.34.2
+urllib3==2.7.0
